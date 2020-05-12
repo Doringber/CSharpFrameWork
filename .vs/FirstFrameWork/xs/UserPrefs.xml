@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{EF7C72C1-BCB7-4196-826E-006736660C9B}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppiumEAFramework/packages.config">
+    <Files>
+      <File FileName="AppiumEAFramework/Utilities/AppiumUtilities.cs" Line="92" Column="1" />
+      <File FileName="AppiumEAFramework/app.config" Line="1" Column="1" />
+      <File FileName="AppiumEAFramework/TestClass.cs" Line="74" Column="55" />
+      <File FileName="AppiumEAFramework/WorksFlow/GoogleWorksFlow.cs" Line="20" Column="40" />
+      <File FileName="AppiumEAFramework/config.json" Line="3" Column="21" />
+      <File FileName="AppiumEAFramework/Pages/GooglePage/HomeScreen.cs" Line="8" Column="22" />
+      <File FileName="AppiumEAFramework/Utilities/APIopenweathermap.cs" Line="20" Column="23" />
+      <File FileName="AppiumEAFramework/Hooks/TestInitialize.cs" Line="7" Column="1" />
+      <File FileName="AppiumEAFramework/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FirstFrameWork" expanded="True">
+            <Node name="FirstFrameWork" expanded="True">
+              <Node name="packages.config" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>customer</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FirstFrameWork" expanded="True">
+            <Node name="FirstFrameWork" expanded="True">
+              <Node name="AppiumEAFramework" expanded="True">
+                <Node name="TestClass" expanded="True">
+                  <Node name="apitests" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/doringber/Library/Caches/VisualStudio/8.0/Symbols/mono/corefx/c30d255aec6b7de633d1c67b1a7f2ec121250359</String>
+    <String>/Users/doringber/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/1d0d939dc30a5b56f478bc9f097cab146276b9af</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.ItemProperties.FirstFrameWork PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Hooks/TestInitialize.cs" relfile="AppiumEAFramework/Hooks/TestInitialize.cs" line="59" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="71" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="68" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="42" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,5 @@
+﻿{
+  "type": "appium",
+  "platfromOS": "api",
+  "url": "https://www.google.co.il/"
+}

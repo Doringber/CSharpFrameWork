@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{EF7C72C1-BCB7-4196-826E-006736660C9B}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppiumEAFramework/Utilities/APIopenweathermap.cs">
+    <Files>
+      <File FileName="AppiumEAFramework/Utilities/APIopenweathermap.cs" Line="58" Column="36" />
+      <File FileName="AppiumEAFramework/Utilities/APIhelper.cs" Line="1" Column="1" />
+      <File FileName="AppiumEAFramework/TestClass.cs" Line="79" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FristFrameWork" expanded="True" selected="True">
+            <Node name="FirstFrameWork" expanded="True">
+              <Node name="Features" expanded="True">
+                <Node name="Login.feature" expanded="True" />
+              </Node>
+              <Node name="Hooks" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Steps" expanded="True" />
+              <Node name="Utilities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>customer</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="AppiumEAFramework" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/doringber/Library/Caches/VisualStudio/8.0/Symbols/mono/corefx/c30d255aec6b7de633d1c67b1a7f2ec121250359</String>
+    <String>/Users/doringber/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/1d0d939dc30a5b56f478bc9f097cab146276b9af</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.ItemProperties.FirstFrameWork PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Hooks/TestInitialize.cs" relfile="AppiumEAFramework/Hooks/TestInitialize.cs" line="18" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/TestClass.cs" relfile="AppiumEAFramework/TestClass.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
