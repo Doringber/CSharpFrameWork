@@ -1,7 +1,7 @@
 ﻿using System;
 namespace AppiumEAFramework.Utilities
 {
-    public  class BrowserCommand
+    public class BrowserCommand
     {
 
         
@@ -32,7 +32,7 @@ namespace AppiumEAFramework.Utilities
 
         }
 
-        public  void GoToUrl(string url)
+        public void GoToUrl(string url)
         {
             try
             {
@@ -46,7 +46,7 @@ namespace AppiumEAFramework.Utilities
 
         }
 
-        public  void BackgroundApp(int num)
+        public void BackgroundApp(int num)
         {
             try
             {

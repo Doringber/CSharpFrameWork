@@ -1,5 +1,6 @@
 ﻿{
   "type": "appium",
-  "platfromOS": "api",
-  "url": "https://www.google.co.il/"
+  "platfromOS": "android",
+  "url": "https://www.google.co.il/",
+  "reportPath": "/Users/doringber/Downloads/reportsCSharp/"
 }

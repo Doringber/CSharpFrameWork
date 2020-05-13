@@ -1,22 +1,11 @@
 ﻿<Properties StartupConfiguration="{EF7C72C1-BCB7-4196-826E-006736660C9B}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AppiumEAFramework/packages.config">
-    <Files>
-      <File FileName="AppiumEAFramework/Utilities/AppiumUtilities.cs" Line="92" Column="1" />
-      <File FileName="AppiumEAFramework/app.config" Line="1" Column="1" />
-      <File FileName="AppiumEAFramework/TestClass.cs" Line="74" Column="55" />
-      <File FileName="AppiumEAFramework/WorksFlow/GoogleWorksFlow.cs" Line="20" Column="40" />
-      <File FileName="AppiumEAFramework/config.json" Line="3" Column="21" />
-      <File FileName="AppiumEAFramework/Pages/GooglePage/HomeScreen.cs" Line="8" Column="22" />
-      <File FileName="AppiumEAFramework/Utilities/APIopenweathermap.cs" Line="20" Column="23" />
-      <File FileName="AppiumEAFramework/Hooks/TestInitialize.cs" Line="7" Column="1" />
-      <File FileName="AppiumEAFramework/packages.config" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FirstFrameWork" expanded="True">
             <Node name="FirstFrameWork" expanded="True">
-              <Node name="packages.config" selected="True" />
+              <Node name="Hooks" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,10 +19,11 @@
         <State name="__root__">
           <Node name="FirstFrameWork" expanded="True">
             <Node name="FirstFrameWork" expanded="True">
-              <Node name="AppiumEAFramework" expanded="True">
-                <Node name="TestClass" expanded="True">
-                  <Node name="apitests" selected="True" />
+              <Node name="AppiumEAFramework.TestCase" expanded="True">
+                <Node name="AndroidTests" expanded="True">
+                  <Node name="AndroidExpriBankTest" selected="True" />
                 </Node>
+                <Node name="GoogleTests" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -50,10 +40,10 @@
   <MonoDevelop.Ide.ItemProperties.FirstFrameWork PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Hooks/TestInitialize.cs" relfile="AppiumEAFramework/Hooks/TestInitialize.cs" line="59" column="1" />
-      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="71" column="1" />
-      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="68" column="1" />
-      <Breakpoint file="/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="42" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Hooks/TestInitialize.cs" relfile="AppiumEAFramework/Hooks/TestInitialize.cs" line="61" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="71" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="68" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="42" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

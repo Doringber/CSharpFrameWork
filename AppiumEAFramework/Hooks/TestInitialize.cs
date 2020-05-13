@@ -12,7 +12,9 @@ namespace AppiumEAFramework.Hooks
     public class TestInitialize : Base
     {
         public static string browser;
-        public static string GoUrl;
+        public static string goUrl;
+
+        public string htmlReporter { get; private set; }
 
         [SetUp]
         public void InitializeTest()
@@ -55,7 +57,7 @@ namespace AppiumEAFramework.Hooks
             string nowOn = now.ToString();
             Console.WriteLine(nowOn);
             extent = new ExtentReports();
-            var htmlReprot = new ExtentV3HtmlReporter(@"/Users/doringber/Downloads/reportsCSharp/" + nowOn + ".html");
+            var htmlReprot = new ExtentV3HtmlReporter(htmlReporter + nowOn + ".html");
             extent.AttachReporter(htmlReprot);
 
         }
@@ -89,7 +91,7 @@ namespace AppiumEAFramework.Hooks
                         {
                             driver = new ChromeDriver();
                             driver.Manage().Window.Maximize();
-                            driver.Navigate().GoToUrl(GoUrl);
+                            driver.Navigate().GoToUrl(goUrl);
                             break;
                         }
 
@@ -105,17 +107,15 @@ namespace AppiumEAFramework.Hooks
         public string jsonFile(string node)
         {
             var config = new ConfigurationBuilder()
-            .AddJsonFile("/Users/doringber/Downloads/AppiumEAFramework/AppiumEAFramework/config.json").Build();
+            .AddJsonFile("/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/config.json").Build();
 
             //return node = config[node];
             while (config[node] != null)
             {
                 Console.WriteLine("This one: |" + config.ToString());
                 browser = config["browser"];
-                //Console.WriteLine(browser);
-
-                GoUrl = config["url"];
-                //Console.WriteLine(url);
+                goUrl = config["url"];
+                htmlReporter = config["reportPath"];
                 return config[node];
 
             }
