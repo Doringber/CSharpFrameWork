@@ -86,6 +86,10 @@ namespace AppiumEAFramework.Utilities
             return _appiumLocalService;
         }
 
+        public void CloseMobileApp()
+        {
+            appiumDriver.CloseApp();
+        }
 
         public void CloseAndroidApp()
         {

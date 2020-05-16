@@ -49,16 +49,12 @@ namespace AppiumEAFramework.Pages
 
 
             login.Click();
-            test1.Log(Status.Pass, "Able to click");
+            test1.Log(Status.Pass, "Able  to click");
 
 
             return new HomePage(_androidDriver);
         }
 
-        //internal void SignIn()
-        //{
-        //    btnSignInFirst.Click();
-        //}
         internal bool isLoginButtonDisplay()
         {
             return login.Displayed;

@@ -11,8 +11,7 @@ namespace AppiumEAFramework.Hooks
     [TestFixture]
     public class TestInitialize : Base
     {
-        public static string browser;
-        public static string goUrl;
+
 
         public string htmlReporter { get; private set; }
 
@@ -33,10 +32,10 @@ namespace AppiumEAFramework.Hooks
             switch (end)
             {
                 case "android":
-                    AppiumUtilities.CloseAndroidApp();
+                    AppiumUtilities.CloseMobileApp();
                     break;
                 case "ios":
-                    AppiumUtilities.CloseIOSApp();
+                    AppiumUtilities.CloseMobileApp();
                     break;
                 case "chrome":
                     driver.Quit();
@@ -116,6 +115,8 @@ namespace AppiumEAFramework.Hooks
                 browser = config["browser"];
                 goUrl = config["url"];
                 htmlReporter = config["reportPath"];
+                apiToken = config["apiToken"];
+                ApiUrlString = config["ApiUrlString"];
                 return config[node];
 
             }

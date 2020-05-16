@@ -1,6 +1,8 @@
 ﻿{
   "type": "appium",
-  "platfromOS": "android",
+  "platfromOS": "api",
   "url": "https://www.google.co.il/",
-  "reportPath": "/Users/doringber/Downloads/reportsCSharp/"
+  "reportPath": "/Users/doringber/Downloads/reportsCSharp/",
+  "apiToken": "95bb4bcaf0fb03099e859f16dde0a0f3",
+  "ApiUrlString": "http://api.openweathermap.org/data/2.5/weather?q="
 }

@@ -20,14 +20,13 @@ namespace AppiumEAFramework.TestCase
 
             homePage.Login("company", "company");
             BankSecondScreen bankSecondScreen = new BankSecondScreen(AndroidContext);
-            BrowserCommand browserCommand = new BrowserCommand();
 
             bankSecondScreen.makePay();
-            browserCommand.Back();
+            BrowserCommand.Back();
             bankSecondScreen.mortageReques();
-            browserCommand.Back();
+            BrowserCommand.Back();
             bankSecondScreen.expenseReport();
-            browserCommand.Back();
+            BrowserCommand.Back();
             bankSecondScreen.logOut();
 
 

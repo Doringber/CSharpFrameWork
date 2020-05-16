@@ -1,5 +1,7 @@
 ﻿using AventStack.ExtentReports;
+using Newtonsoft.Json.Linq;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
 using OpenQA.Selenium.Appium.Service;
@@ -9,10 +11,8 @@ namespace AppiumEAFramework.Utilities
     public class Base
     {
         public AppiumLocalService AppiumServiceContext;
-
+        public static AppiumDriver<IWebElement> appiumDriver;
         public static AndroidDriver<AndroidElement> AndroidContext;
-        
-
         public IOSDriver<IOSElement> IOSContext;
         public static IWebDriver driver;
 
@@ -22,10 +22,18 @@ namespace AppiumEAFramework.Utilities
 
         public AppiumUtilities AppiumUtilities => new AppiumUtilities(AppiumServiceContext, AndroidContext, IOSContext);
 
-        public string typePlatfrom;
-        public string platfromOS1;
+        public static string typePlatfrom;
+        public static string platfromOS1;
+        public static string url;
+        public static string browser;
+        public static string goUrl;
+        public static string apiToken;
+        public static string ApiUrlString;
 
-        public string url;
+        public static JObject jObject { get; set; }
+
+
+
 
 
         public AndroidDriver<AndroidElement> StartAppiumServerForHybrid()

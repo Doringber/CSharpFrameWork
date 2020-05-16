@@ -1,15 +1,15 @@
 ﻿using System;
 namespace AppiumEAFramework.Utilities
 {
-    public class BrowserCommand
+    public static class BrowserCommand
     {
 
         
-        public void Back()
+        public static void Back()
         {
             try
             {
-             Base.AndroidContext.Navigate().Back();
+                Base.AndroidContext.Navigate().Back();
 
             }
             catch (Exception ex)
@@ -18,11 +18,11 @@ namespace AppiumEAFramework.Utilities
             }
         }
 
-        public void Refresh()
+        public static void Refresh()
         {
             try
             {
-                Base.AndroidContext.Navigate().Refresh();
+                Base.appiumDriver.Navigate().Refresh();
 
             }
             catch (Exception ex)
@@ -32,11 +32,11 @@ namespace AppiumEAFramework.Utilities
 
         }
 
-        public void GoToUrl(string url)
+        public static void GoToUrl(string url)
         {
             try
             {
-                Base.AndroidContext.Navigate().GoToUrl(url);
+                Base.appiumDriver.Navigate().GoToUrl(url);
 
             }
             catch (Exception ex)
@@ -46,11 +46,11 @@ namespace AppiumEAFramework.Utilities
 
         }
 
-        public void BackgroundApp(int num)
-        {
+        public static void BackgroundApp(int num)
+        { 
             try
             {
-                Base.AndroidContext.BackgroundApp(num);
+                Base.appiumDriver.BackgroundApp(num);
 
 
             }
@@ -63,11 +63,11 @@ namespace AppiumEAFramework.Utilities
 
         }
 
-        public void PageSource()
+        public static void PageSource()
         {
             try
-            {
-                string page = Base.AndroidContext.PageSource.ToString();
+            {                
+                string page = Base.appiumDriver.PageSource.ToString();
                 Console.WriteLine(page);
 
 

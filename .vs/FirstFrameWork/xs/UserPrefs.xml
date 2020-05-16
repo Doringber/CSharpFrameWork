@@ -1,11 +1,25 @@
 ﻿<Properties StartupConfiguration="{EF7C72C1-BCB7-4196-826E-006736660C9B}|Unit Tests">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppiumEAFramework/Extention/APIActions.cs">
+    <Files>
+      <File FileName="AppiumEAFramework/TestCase/WeatherAPITests.cs" Line="21" Column="37" />
+      <File FileName="AppiumEAFramework/Extention/APIActions.cs" Line="37" Column="21" />
+      <File FileName="../../Library/Caches/VisualStudio/8.0/Symbols/mono/corefx/c30d255aec6b7de633d1c67b1a7f2ec121250359/src/System.Net.WebClient/src/System/Net/WebClient.cs" Line="33" Column="1" />
+      <File FileName="../../Library/Caches/VisualStudio/8.0/Symbols/mono/mono/1d0d939dc30a5b56f478bc9f097cab146276b9af/mcs/class/referencesource/mscorlib/system/threading/thread.cs" Line="75" Column="1" />
+      <File FileName="../../Library/Caches/VisualStudio/8.0/Symbols/mono/mono/1d0d939dc30a5b56f478bc9f097cab146276b9af/mcs/class/referencesource/mscorlib/system/threading/executioncontext.cs" Line="973" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FirstFrameWork" expanded="True">
             <Node name="FirstFrameWork" expanded="True">
+              <Node name="Extention" expanded="True">
+                <Node name="APIActions.cs" selected="True" />
+              </Node>
               <Node name="Hooks" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="TestCase" expanded="True" />
+              <Node name="Utilities" expanded="True" />
+              <Node name="WorksFlow" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -20,10 +34,9 @@
           <Node name="FirstFrameWork" expanded="True">
             <Node name="FirstFrameWork" expanded="True">
               <Node name="AppiumEAFramework.TestCase" expanded="True">
-                <Node name="AndroidTests" expanded="True">
-                  <Node name="AndroidExpriBankTest" selected="True" />
+                <Node name="WeatherAPI" expanded="True">
+                  <Node name="GetResponseTest" selected="True" />
                 </Node>
-                <Node name="GoogleTests" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -40,10 +53,10 @@
   <MonoDevelop.Ide.ItemProperties.FirstFrameWork PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Hooks/TestInitialize.cs" relfile="AppiumEAFramework/Hooks/TestInitialize.cs" line="61" column="1" />
       <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="71" column="1" />
       <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="68" column="1" />
       <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/Utilities/AppiumUtilities.cs" relfile="AppiumEAFramework/Utilities/AppiumUtilities.cs" line="42" column="1" />
+      <Breakpoint file="/Users/doringber/Downloads/FirstFrameWork/AppiumEAFramework/TestCase/WeatherAPITests.cs" relfile="AppiumEAFramework/TestCase/WeatherAPITests.cs" line="19" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

@@ -227,7 +227,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\AppiumUtilities.cs" />
     <Compile Include="Utilities\Base.cs" />
-    <Compile Include="Utilities\APIopenweathermap.cs" />
     <Compile Include="Utilities\BrowserCommand.cs" />
     <Compile Include="Pages\GooglePage\HomeScreen.cs" />
     <Compile Include="Extention\UIActions.cs" />
@@ -241,6 +240,8 @@
     <Compile Include="TestCase\iOSTests.cs" />
     <Compile Include="TestCase\GoogleTests.cs" />
     <Compile Include="TestCase\WeatherAPITests.cs" />
+    <Compile Include="Extention\APIActions.cs" />
+    <Compile Include="WorksFlow\WeatherAPIWorkFlow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
